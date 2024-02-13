@@ -1,6 +1,4 @@
-/*******************************/
-/********* General CSS *********/
-/*******************************/
+
 body {
     color: #797979;
     background: #ffffff;
@@ -20,56 +18,7 @@ a {
     color: #454545;
     transition: .3s;
 }
-/* 
-a:hover,
-a:active,
-a:focus {
-    color: #F7CAC9;
-    outline: none;
-    text-decoration: none;
-} */
-/* 
-.btn:focus,
-.form-control:focus {
-    box-shadow: none;
-}
 
-.container-fluid {
-    max-width: 1366px;
-}
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    background: #F7CAC9;
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    line-height: 1;
-    font-size: 22px;
-    right: 15px;
-    bottom: 15px;
-    transition: background 0.5s;
-    z-index: 9;
-}
-
-.back-to-top:hover {
-    background: #343148;
-}
-
-.back-to-top:hover i {
-    color: #F7CAC9;
-}
-
-.back-to-top i {
-    color: #343148;
-    padding-top: 10px;
-}
-
-
-/**********************************/
-/********** Top Bar CSS ***********/
-/**********************************/
 .top-bar {
     position: relative;
     height: 35px;
@@ -155,12 +104,8 @@ a:focus {
     .top-bar {
         padding: 0 60px;
     }
-} */
+} 
 
-
-/**********************************/
-/*********** Nav Bar CSS **********/
-/**********************************/
 .navbar {
     position: relative;
     transition: .5s;
@@ -430,7 +375,7 @@ a:focus {
 
 .page-header a::after {
     position: absolute;
-    content: "/";
+   
     width: 8px;
     height: 8px;
     top: -2px;
@@ -813,13 +758,11 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0; 
-    /* background: linear-gradient(rgba(247, 202, 201, .7), rgba(247, 202, 201, .7)), url(../img/discount-bg.png); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* ../img/discount-bg.png */
 .discount .container {
     max-width: 750px;
     text-align: center;
@@ -1468,9 +1411,7 @@ a:focus {
 
 
 
-/*******************************/
-/******* Single Post CSS *******/
-/*******************************/
+
 .single {
     position: relative;
     padding: 45px 0;
@@ -1857,12 +1798,6 @@ a:focus {
     color: #F7CAC9;
     left: 1px;
 }
-
-/* .sidebar .category-widget ul li span {
-    display: inline-block;
-    float: right;
-} */
-
 .sidebar .sidebar-widget .tag-widget {
     position: relative;
     margin: -5px -5px;
@@ -1911,7 +1846,6 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    /* background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
