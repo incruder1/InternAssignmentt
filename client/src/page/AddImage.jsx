@@ -27,7 +27,7 @@ function AddImage() {
         method: 'POST',
         body: formData,
       });
-
+      console.log(response);
       if (response.ok) {
         console.log('Image uploaded successfully!');
         // Handle any additional logic after successful upload
@@ -48,7 +48,8 @@ function AddImage() {
       try {
         // Make a request to your Express server's /images endpoint
         const response = await axios.get('http://localhost:8080/images'); // Update the URL
-        //setImages(response.data);
+        // setImages(response.data+"-------------------");
+        console.log(response);
         setUsersWithImages(response.data.filter((user) => user.uploadedImages.length > 0));
       } catch (error) {
         console.error('Error fetching images:', error.message);
