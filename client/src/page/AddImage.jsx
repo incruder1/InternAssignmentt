@@ -23,7 +23,7 @@ function AddImage() {
     formData.append('email', email);
 
     try {
-      const response = await fetch('http://localhost:8080/upload', {
+      const response = await fetch('https://blinkitintern.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
@@ -47,7 +47,7 @@ function AddImage() {
     const fetchImages = async () => {
       try {
         // Make a request to your Express server's /images endpoint
-        const response = await axios.get('http://localhost:8080/images'); // Update the URL
+        const response = await axios.get('https://blinkitintern.onrender.com/images'); // Update the URL
         // setImages(response.data+"-------------------");
         console.log(response);
         setUsersWithImages(response.data.filter((user) => user.uploadedImages.length > 0));
