@@ -1,0 +1,59 @@
+.image-Input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+    .image-input{
+        width: 20rem;
+        height: 20rem;
+        margin-top: 20px;
+        object-fit: cover;
+        border-radius: 10%;
+    }
+    .image-input-button{
+        margin-top: 20px;
+    }
+
+}
+.user-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    .image-item{
+        margin: 10px;
+        position: relative;
+        .image{
+            width: 20rem;
+            height: 20rem;
+            margin-top: 20px;
+            object-fit: cover;
+            border-radius: 10%;
+        }
+    }
+}
+.images-container{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap:wrap;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    .image-item{
+        margin: 10px;
+        position: relative;
+        .image{
+            width: 25rem;
+            height: 20rem;
+            margin-top: 20px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+}
